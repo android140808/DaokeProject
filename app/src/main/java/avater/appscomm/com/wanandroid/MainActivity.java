@@ -1,4 +1,4 @@
-package avater.appscomm.com.lisetviewdemo;
+package avater.appscomm.com.wanandroid;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
@@ -18,6 +18,8 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import avater.appscomm.com.wan_andoid.R;
 
 public class MainActivity extends AppCompatActivity {
 
