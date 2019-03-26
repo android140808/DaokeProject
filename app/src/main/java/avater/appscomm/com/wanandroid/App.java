@@ -5,6 +5,7 @@ import android.app.Application;
 import com.tencent.bugly.crashreport.CrashReport;
 
 import avater.appscomm.com.wanandroid.db.ObjectBox;
+import avater.appscomm.com.wanandroid.net.InternetUtils;
 
 public class App extends Application {
 
@@ -17,6 +18,7 @@ public class App extends Application {
         app = this;
         ObjectBox.init(this);
         //网络相关
+        InternetUtils.INSTANCE.init(this);
         //账户相关
     }
 
